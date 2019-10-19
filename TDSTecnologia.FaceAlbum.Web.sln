@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDSTecnologia.FaceAlbum.Web", "TDSTecnologia.FaceAlbum.Web.csproj", "{7333B013-83CF-465E-A4F7-19AF9DF87BC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDSTecnologia.FaceAlbum.Web", "TDSTecnologia.FaceAlbum.Web.csproj", "{7333B013-83CF-465E-A4F7-19AF9DF87BC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{252E25B0-FFE5-475F-A626-2884F5442BF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7333B013-83CF-465E-A4F7-19AF9DF87BC8} = {252E25B0-FFE5-475F-A626-2884F5442BF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84AB0DB2-C21F-453B-A6BF-D23FE427C319}
